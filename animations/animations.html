@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>animations</title>
+
+
+   <style>
+     *{
+
+        margin: 0;
+        padding: 0;
+
+     }
+     #maindiv{
+
+        height:100px;
+        width: 100px;
+        background-color: red;
+        animation: anim1 5s;
+        animation-iteration-count: infinite;
+        animation-delay: (3s);
+     }
+
+
+
+        @keyframes anim1{
+
+            0%{
+         margin-left: 0px;
+         margin-top: 0px;
+            }   
+            25%{
+         margin-left: 40rem;
+         margin-top: 0px;
+         background-color: coral;
+         transform: rotate(100deg);
+            }
+            50%{
+         margin-left: 40rem;
+         margin-top: 20rem;
+         background-color: blueviolet;
+         transfrom: rotate(200deg);
+            }
+            75%{
+                margin-left: 0px;
+                margin-top: 20rem;
+                background-color: yellow;
+                transform: rotate(300deg);
+            }
+            100%{
+                margin-left: 0;
+                margin-top:0;
+                background-color: yellowgreen;
+                transform:  rotate(360deg);
+            }
+
+
+        }   
+            
+        
+   </style>
+
+
+</head>
+<body>
+   
+    
+
+    <div id="maindiv">
+        
+
+
+
+</body>
+</html>
